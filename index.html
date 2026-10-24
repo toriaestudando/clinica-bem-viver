@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17263f">
+  <meta name="description" content="Clínica Bem Viver — saúde e acolhimento para toda a família.">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <title>Clínica Bem Viver | Saúde para toda a família</title>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Clínica Bem Viver, início">
+      <span class="brand-mark" aria-hidden="true">♡</span>
+      <span><strong>Clínica Bem Viver</strong><small>SAÚDE PARA TODA A FAMÍLIA</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainNav" aria-label="Abrir menu">☰</button>
+    <nav id="mainNav" class="main-nav" aria-label="Navegação principal">
+      <a href="#especialidades">Especialidades</a>
+      <a href="#cuidado">Áreas de cuidado</a>
+      <a href="#sobre">A clínica</a>
+      <a href="#contato">Contato</a>
+      <button class="button button-small" data-open="login">Área do paciente</button>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero section-wrap" id="inicio">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="eyebrow-dot"></span> Cuidado próximo, em todas as fases</span>
+        <h1>Saúde com carinho.<br><em>Cuidado de verdade.</em></h1>
+        <p>Um espaço pensado para acolher você e sua família, com atenção às necessidades de cada fase da vida.</p>
+        <div class="hero-actions">
+          <button class="button" data-open="appointment">Solicitar consulta <span aria-hidden="true">→</span></button>
+          <a class="button button-quiet" href="#especialidades">Conheça nossos cuidados</a>
+        </div>
+        <div class="hero-note"><span class="note-icon">✦</span><span>Um cuidado mais leve para a rotina da sua família.</span></div>
+      </div>
+      <div class="hero-art" aria-label="Ilustração decorativa de saúde e família">
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+        <div class="art-sun"></div><div class="art-cloud cloud-one"></div><div class="art-cloud cloud-two"></div>
+        <div class="art-card">
+          <div class="art-heart">♡</div>
+          <div class="art-card-title">Cuidar é estar perto</div>
+          <div class="art-card-subtitle">Em cada etapa da vida.</div>
+          <div class="art-sparkle">✦</div>
+        </div>
+        <div class="floating-pill pill-top">♡ Bem-estar</div>
+        <div class="floating-pill pill-bottom">✧ Família</div>
+        <div class="art-flower flower-one">✿</div><div class="art-flower flower-two">✿</div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Diferenciais">
+      <div><span>♡</span><p><strong>Atendimento humano</strong><small>Escuta e acolhimento</small></p></div>
+      <div><span>✦</span><p><strong>Cuidado em família</strong><small>Em diferentes fases da vida</small></p></div>
+      <div><span>⌂</span><p><strong>Mais praticidade</strong><small>Informações em um só lugar</small></p></div>
+    </section>
+
+    <section class="section section-wrap" id="especialidades">
+      <div class="section-heading">
+        <div><span class="eyebrow">Nossos cuidados</span><h2>Saúde para cada <em>momento.</em></h2></div>
+        <p>Informação clara e cuidado individualizado, com espaço para as necessidades de cada paciente.</p>
+      </div>
+      <div class="specialty-grid">
+        <article class="specialty-card card-blue">
+          <span class="card-icon">✚</span><span class="card-kicker">01 · Cuidado geral</span>
+          <h3>Clínica médica</h3><p>Acompanhamento de saúde, consultas de rotina e orientação profissional.</p>
+          <button class="text-link" data-open="appointment" data-specialty="Clínica médica">Solicitar consulta <span>↗</span></button>
+        </article>
+        <article class="specialty-card card-pink">
+          <span class="card-icon">♡</span><span class="card-kicker">02 · Pequenos cuidados</span>
+          <h3>Pediatria</h3><p>Atenção ao crescimento, desenvolvimento e bem-estar das crianças.</p>
+          <button class="text-link" data-open="appointment" data-specialty="Pediatria">Solicitar consulta <span>↗</span></button>
+        </article>
+        <article class="specialty-card card-gold">
+          <span class="card-icon">✿</span><span class="card-kicker">03 · Acompanhamento</span>
+          <h3>Saúde da mulher</h3><p>Um espaço acolhedor para conversar sobre prevenção e cuidados.</p>
+          <button class="text-link" data-open="appointment" data-specialty="Saúde da mulher">Solicitar consulta <span>↗</span></button>
+        </article>
+        <article class="specialty-card card-lilac">
+          <span class="card-icon">☾</span><span class="card-kicker">04 · Nova jornada</span>
+          <h3>Acompanhamento gestacional</h3><p>Organização de consultas e lembretes para acompanhar cada etapa.</p>
+          <button class="text-link" data-open="appointment" data-specialty="Acompanhamento gestacional">Solicitar consulta <span>↗</span></button>
+        </article>
+      </div>
+      <p class="demo-note">Especialidades e serviços ilustrativos para o protótipo. Ajuste-os aos serviços realmente oferecidos pela clínica.</p>
+    </section>
+
+    <section class="care-section" id="cuidado">
+      <div class="section-wrap care-layout">
+        <div class="care-copy"><span class="eyebrow eyebrow-light">Seu espaço de cuidado</span><h2>Mais organização para cuidar de quem você ama.</h2><p>Uma área digital pensada para facilitar a rotina da família. Neste protótipo, você pode conhecer as telas e testar o fluxo de solicitação de consulta com dados fictícios.</p><button class="button button-light" data-open="login">Conhecer área do paciente <span>→</span></button></div>
+        <div class="care-features">
+          <article><span class="feature-icon">🧸</span><div><h3>Área infantil</h3><p>Organize lembretes e informações de acompanhamento da criança.</p></div><span class="feature-arrow">↗</span></article>
+          <article><span class="feature-icon">🌷</span><div><h3>Área da gestante</h3><p>Tenha uma visão organizada de consultas e lembretes pessoais.</p></div><span class="feature-arrow">↗</span></article>
+          <article><span class="feature-icon">📅</span><div><h3>Consultas e pedidos</h3><p>Veja as solicitações registradas neste dispositivo.</p></div><span class="feature-arrow">↗</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-wrap about-section" id="sobre">
+      <div class="about-illustration"><div class="about-circle"><span>♡</span><small>CUIDADO<br>COM CARINHO</small></div><span class="about-star star-a">✦</span><span class="about-star star-b">✧</span></div>
+      <div class="about-copy"><span class="eyebrow">A Clínica Bem Viver</span><h2>Um atendimento que começa com <em>escuta.</em></h2><p>Acreditamos que cuidar da saúde também é acolher dúvidas, respeitar histórias e tornar cada etapa mais compreensível.</p><p>Nosso compromisso é oferecer uma experiência clara, gentil e responsável para pacientes e famílias.</p><a class="text-link" href="#contato">Fale com a clínica <span>↗</span></a></div>
+    </section>
+
+    <section class="contact-section" id="contato">
+      <div class="section-wrap contact-layout">
+        <div><span class="eyebrow eyebrow-light">Estamos aqui para ajudar</span><h2>Vamos conversar?</h2><p>Envie uma solicitação ou entre em contato pelos canais oficiais da clínica.</p></div>
+        <div class="contact-panel"><div class="contact-line"><span>✉</span><div><small>E-mail</small><strong>contato@clinicabemviver.example</strong></div></div><div class="contact-line"><span>◷</span><div><small>Atendimento</small><strong>Consulte os horários com a recepção</strong></div></div><button class="button button-light" data-open="appointment">Solicitar atendimento <span>→</span></button><p class="demo-note light-note">Os dados de contato acima são demonstrativos e devem ser substituídos.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="brand brand-footer" href="#inicio"><span class="brand-mark">♡</span><span><strong>Clínica Bem Viver</strong><small>SAÚDE PARA TODA A FAMÍLIA</small></span></a><p>© <span id="year"></span> Clínica Bem Viver. Protótipo demonstrativo.</p><a href="#inicio" class="back-top">Voltar ao topo ↑</a></footer>
+
+  <dialog class="modal" id="appointmentModal">
+    <form id="appointmentForm" class="modal-content">
+      <button type="button" class="modal-close" data-close aria-label="Fechar">×</button>
+      <span class="eyebrow">Vamos começar</span><h2>Solicitar uma consulta</h2>
+      <p class="modal-intro">Preencha os dados fictícios para testar a experiência. Este protótipo não envia pedidos para uma clínica real.</p>
+      <label for="patientName">Nome do paciente</label><input id="patientName" name="patientName" autocomplete="name" required maxlength="100" placeholder="Nome completo">
+      <label for="patientEmail">E-mail para contato</label><input id="patientEmail" name="patientEmail" type="email" autocomplete="email" required placeholder="voce@exemplo.com">
+      <label for="specialty">Área de atendimento</label><select id="specialty" name="specialty" required><option value="">Selecione uma opção</option><option>Clínica médica</option><option>Pediatria</option><option>Saúde da mulher</option><option>Acompanhamento gestacional</option></select>
+      <label for="preferredDate">Data preferida</label><input id="preferredDate" name="preferredDate" type="date" required>
+      <label for="requestType">Tipo de solicitação</label><select id="requestType" name="requestType"><option>Primeira consulta</option><option>Retorno</option><option>Remarcação</option></select>
+      <button class="button modal-submit" type="submit">Registrar solicitação de teste</button>
+      <p class="form-footnote">Não inclua sintomas, diagnósticos ou outros dados médicos neste protótipo.</p>
+    </form>
+  </dialog>
+
+  <dialog class="modal" id="loginModal">
+    <form id="loginForm" class="modal-content">
+      <button type="button" class="modal-close" data-close aria-label="Fechar">×</button>
+      <span class="eyebrow">Área do paciente</span><h2>Bem-vindo à Bem Viver</h2>
+      <p class="modal-intro">Esta é uma demonstração visual. O login real será configurado futuramente com autenticação segura.</p>
+      <label for="loginEmail">E-mail</label><input id="loginEmail" type="email" autocomplete="email" placeholder="voce@exemplo.com" required>
+      <label for="loginPassword">Senha</label><input id="loginPassword" type="password" autocomplete="current-password" placeholder="No protótipo, não use sua senha real" required>
+      <button class="button modal-submit" type="submit">Visualizar demonstração</button>
+      <div id="demoDashboard" class="demo-dashboard" hidden><h3>Olá! Esta é sua área demonstrativa.</h3><div class="dashboard-tile"><span>📅</span><div><strong>Minhas solicitações</strong><small id="requestCount">Nenhuma solicitação neste dispositivo.</small></div></div><div class="dashboard-tile"><span>🧸</span><div><strong>Área infantil</strong><small>Em uma versão real, acessível após autenticação do responsável.</small></div></div><div class="dashboard-tile"><span>🌷</span><div><strong>Área da gestante</strong><small>Em uma versão real, com dados privados e controles de acesso.</small></div></div></div>
+      <p class="form-footnote">Não há cadastro ou autenticação real neste protótipo. Não utilize credenciais reais.</p>
+    </form>
+  </dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
